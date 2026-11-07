@@ -300,7 +300,32 @@ img {
 
 
 /*=============== HOME SECTION ===============*/
+.home__data{
+  text-align:left;
+color: var(--white-color);}
+  .sintro{
+                                    margin-left: 100px;
+                                }
+                                #p1{
+                                    font-size:80px;
+                                    color: var(--hue);
+                                }  
+                
+                                .home__subtitle{
+                                  font-size: var(--h3-font-size);
+                                  margin-bottom: 1rem;
+                                }
 
+                                #me{    
+                                    height:fit-content;
+                                    width:fit-content;  
+                                    border-radius: 45px;
+                                    background-color: #FFD51E;
+                                    color: #800020;
+                                    font-size: 20px;
+                                    text-decoration: none;
+                                    margin-left: 20px;
+                                }
 
 /* Circular text animation */
 
