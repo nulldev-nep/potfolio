@@ -29,9 +29,12 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== HOME TEXT CIRCULAR ===============*/
 
-
 /*=============== HOME TYPED JS ===============*/
-
+const typed = new Typed('#hometitle', {
+  strings: ['', ''],
+  typeSpeed: 60,
+  loop:true,
+});
 
 /*=============== CHANGE HEADER STYLES ===============*/
 

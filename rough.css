@@ -9,8 +9,8 @@
                                     height:fit-content;
                                     width:fit-content;  
                                     border-radius: 45px;
-                                    background-color: #FFD51E;
-                                    color: #800020;
+                                    background-color:var(--hue);
+                                    color: var(--white-color);
                                     font-size: 20px;
                                     text-decoration: none;
                                     margin-left: 20px;

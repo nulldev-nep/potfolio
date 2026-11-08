@@ -303,10 +303,10 @@ img {
 .home__data{
   text-align:left;
 color: var(--white-color);}
-  .sintro{
+                                 .home__title{
                                     margin-left: 100px;
                                 }
-                                #p1{
+                                h1{
                                     font-size:80px;
                                     color: var(--hue);
                                 }  
@@ -317,14 +317,13 @@ color: var(--white-color);}
                                 }
 
                                 #me{    
-                                    height:fit-content;
-                                    width:fit-content;  
-                                    border-radius: 45px;
-                                    background-color: #FFD51E;
-                                    color: #800020;
-                                    font-size: 20px;
-                                    text-decoration: none;
-                                    margin-left: 20px;
+                                    display: inline-flex;
+  background-color: var(--first-color);
+  color: var(--black-color);
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  font-weight: var(--font-semi-bold);
+  transition: box-shadow 0.4s;
                                 }
 
 /* Circular text animation */
