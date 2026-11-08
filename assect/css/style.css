@@ -301,31 +301,36 @@ img {
 
 /*=============== HOME SECTION ===============*/
 .home__data{
-  text-align:left;
-color: var(--white-color);}
-                                 .home__title{
-                                    margin-left: 100px;
-                                }
-                                h1{
-                                    font-size:80px;
-                                    color: var(--hue);
-                                }  
-                
-                                .home__subtitle{
-                                  font-size: var(--h3-font-size);
-                                  margin-bottom: 1rem;
-                                }
+ text-align:left;
+ color: var(--white-color);
+}
 
-                                #me{    
-                                    display: inline-flex;
-  background-color: var(--first-color);
-  color: var(--black-color);
-  padding: 1rem 2rem;
-  border-radius: 4rem;
-  font-weight: var(--font-semi-bold);
-  transition: box-shadow 0.4s;
-                                }
+.home__title{
+  margin-left: 100px;
+}
 
+h1{
+  font-size:var(--bigger-font-size);
+  color: var(--hue);
+}
+
+h3{
+  padding-top: 30px;
+  height: 200px;
+  width: 600px;
+  font-size: var(--font-medium);
+}
+
+#me{    
+ display: inline-flex;
+ background-color: var(--first-color);
+ color: var(--black-color);
+ padding: 1rem 2rem;
+ border-radius: 4rem;
+ font-weight: var(--font-semi-bold);
+ transition: box-shadow 0.4s;
+      
+}
 /* Circular text animation */
 
 
@@ -381,6 +386,7 @@ color: var(--white-color);}
     width: 50%;
   }
 }
+
 
 /* For large devices <> */
 @media (width >= 1150px){
