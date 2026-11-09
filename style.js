@@ -40,7 +40,7 @@ const typed = new Typed('#hometitle', {
 
 
 /*=============== SWIPER WORK ===============*/ 
-const swipeWork = new Swiper('.work__swiper', {
+const swiperWork = new swiper('.work__swiper', {
   loop: true,
   spaceBetween:24,
   slidesPerview:'auto',
@@ -48,7 +48,7 @@ const swipeWork = new Swiper('.work__swiper', {
   speed:600,
 
   pagination: {
-    el:'.swiper-pagination',
+    el:'.swiper-paginations',
   },
   })
 
