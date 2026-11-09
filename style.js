@@ -40,7 +40,17 @@ const typed = new Typed('#hometitle', {
 
 
 /*=============== SWIPER WORK ===============*/ 
+const swipeWork = new Swiper('.work__swiper', {
+  loop: true,
+  spaceBetween:24,
+  slidesPerview:'auto',
+  grabCursor:true,
+  speed:600,
 
+  pagination: {
+    el:'.swiper-pagination',
+  },
+  })
 
 /*=============== SERVICES ACCORDION ===============*/ 
 
