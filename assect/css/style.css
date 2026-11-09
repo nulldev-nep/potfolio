@@ -429,7 +429,6 @@ text-shadow: var(--first-color)0 0 12px;
   left: 0;
   right: 0;
   justify-self:center;
-
 }
 /*=============== TESTIMONIALS SECTION ===============*/
 
@@ -460,8 +459,16 @@ text-shadow: var(--first-color)0 0 12px;
   }
 }
 
-
+.skill__container{
+  grid-template-columns: 400px;
+  justify-content: center;
+}
+.skill__description{
+  width:500px;
+  margin-inline:auto ;
+}
 /* For large devices <> */
+
 @media (width >= 1150px){
   .container{
     margin-inline: auto;
@@ -491,7 +498,32 @@ text-shadow: var(--first-color)0 0 12px;
     column-gap: 4rem;
   }
 
-  
+  .skill__description{
+    width: 700px;
+  }
+  .skill__container{
+    grid-template-columns: 700px;
+  }
+  .skills__card{
+    padding: 3.5rem 2rem;
+    flex-direction: row;
+    column-gap: 6rem;
+  }
+  .skill__logo{
+    font-size: 3rem;
+  }
+  .skills__title{
+    font-size: var(--h1-font-size);
+  }
+  .skills__img{
+    width:20px;
+  }
+  .skills__name{
+    font-size: var(--normal-font-size);
+  }
+  .skills__card .blob-small{
+    top: -7.5rem;
+  }
 }
 
 /* For 2K resolutions <> */
