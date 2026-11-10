@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="rough.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
 </head>
 <body>
-    <main>
-    <section class="home section" id="home">
-       <div class="home__data">
-        <h1 class="home__title">hi,I'm Amir</h1>
-        <div class="home__subtitle">
-            <span class="shortintro">I’m a Computer Science student with a passion for technology and marketing. 
-I’m driven to deepen my technical skills, explore emerging tools, and bring creative ideas to life as practical digital solutions. 
-I enjoy challenging myself to keep learning and growing, and my goal is to build a strong future where technology, creativity, and marketing work hand in hand.</span>
-      </div>
-      <a href="#">about</a>
-       </div>     
-         </section>
-        </main>
+    <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="rough.js"></script>
 </html>
