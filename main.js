@@ -48,7 +48,30 @@ const typed = new Typed('#hometitle', {
 
 
 /*=============== CONTACT EMAIL JS ===============*/ 
+const contactForm=document.getElementById('contact-form')
+   const contactMessage=document.getElementById('contact-message')
 
+    const sendemail =async (e) =>{
+      //Prevent page from reloading
+    e.preventDefault()
+
+    try{
+      //serviceId-templateId-#formID-#publickey
+      await emailjs.sendForm('service_9a1n555','template_dlfny5g','#contact-form','Wpfx5BZ1gCH3WsjJH')
+     //show sent message
+      contactMessage.textContent ='Message sent successfully ✅'
+
+      //Clear input fields
+      contactForm.reset()
+    }catch(error){   
+      //Show error message
+      contactMessage.textContent='Message not sent(service error) ❌'
+   }finally{
+      //Remove message after five seconds
+      setTimeout(() => contactMessage.textContent='',5000)
+   }
+    }
+    contactForm.addEventListener('submit',sendemail) 
 
 /*=============== SHOW SCROLL UP ===============*/ 
 

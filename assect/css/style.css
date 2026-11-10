@@ -539,6 +539,11 @@ text-shadow: var(--first-color)0 0 12px;
   place-items: center;
   transition: background-color 0.4s,color 0.4s;
 }
+
+.contact_link:hover .contact__arrow{
+  background-color: var(--first-color);
+  color: var(--black-color);
+}
 .button{  
  background-color: var(--first-color);
  color: var(--black-color);
@@ -568,7 +573,8 @@ text-shadow: var(--first-color)0 0 12px;
   }
 }
 
-.skill__container{
+.skill__container,
+.contact__container{
   grid-template-columns: 400px;
   justify-content: center;
 }
@@ -633,7 +639,26 @@ text-shadow: var(--first-color)0 0 12px;
   .skills__card .blob-small{
     top: -7.5rem;
   }
+  .contact__container{
+    grid-template-columns: 450px 380px;
+    align-items: center;
+    column-gap: 10rem;
+    padding-bottom:3rem;
+  }
+  .contact__input{
+    padding-block: 1.5rem;
+  }
+  .contact__label{
+    top:1.5rem;
+  }
+  .contact__area{
+    height:14rem;
+  }
+  .contact__content{
+    row-gap: 2rem;
+  }
 }
+
 
 /* For 2K resolutions <> */
 
