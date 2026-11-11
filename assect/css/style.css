@@ -315,13 +315,14 @@ h1{
 }
 
 h3{
-  padding-top: 30px;
-  height: 200px;
-  width: 600px;
-  font-size: var(--font-medium);
+  padding-bottom:450px;
+  height: 100px;
+  width: 700px;
+  font-size:80px;
 }
 
-#me{    
+
+.me{    
  display: inline-flex;
  background-color: var(--first-color);
  color: var(--black-color);
